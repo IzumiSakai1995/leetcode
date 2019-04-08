@@ -1,6 +1,5 @@
 package 队列实现栈;
 
-import javax.xml.crypto.dsig.keyinfo.RetrievalMethod;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +8,7 @@ import java.util.List;
  * @author IzumiSakai
  */
 public class MyStack {
-    List<Integer> queue = new ArrayList<>();
+    private List<Integer> queue = new ArrayList<>();
     /** Initialize your data structure here. */
     public MyStack() {
 
